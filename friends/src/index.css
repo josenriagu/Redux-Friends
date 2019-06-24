@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e8eaef;
+}
+button {
+  padding: 0.5rem 0.7rem;
+  margin: 0 0.5rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.app-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.app-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.nav-link {
+  padding: 0.5rem 0.7rem;
+  margin: 0 0.5rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color:black;
+}
+.active {
+    border: 0.1rem solid #217735;
+  background-color: #c6930a;
+  color: white;
+}
+.home {
+  margin: 0 auto;
+}
+.friends-wrapper {
+  width: 70.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem auto 0 auto;
+  padding: 0 1rem;
+}
+.friendform-wrapper {
+  width: 28.5%;
+  margin: 2rem auto .5rem auto;
+  padding: 0 1rem;
+}
+.friend {
+  width: calc(25.6% - 1rem);
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  word-wrap: break-word;
+  border: 0.1rem solid gray;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.friend:hover {
+  border: 0.1rem solid #c6930a;
+}
+.link button:nth-of-type(1) {
+  border: 0.1rem solid blue;
+  background-color: rgb(39, 114, 181, 0.3);
+}
+.link button:nth-of-type(1):hover {
+  background-color: rgb(39, 114, 181, 1);
+  color: white;
+}
+.friend button {
+  border: 0.1rem solid red;
+  background-color: rgb(221, 35, 35, 0.3);
+}
+.friend button:hover {
+  background-color: rgb(221, 35, 35, 1);
+  color: white;
+}
+.friendform-wrapper {
+  border: 0.1rem solid gray;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+form {
+  padding: 0 1rem;
+  /* background-color: green; */
+}
+form button:hover {
+  border: 0.1rem solid #217735;
+  background-color: #28a645;
+  color: white;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.field input {
+  padding: 1rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  background-color: transparent;
+}
+.field input:focus {
+  outline: none;
+  border: 0.1rem solid #c6930a;
+}
